@@ -13,6 +13,7 @@ spring:
     password: Admin.1234
     driver-class-name: org.postgresql.Driver
 
+
   jpa:
     hibernate:
       ddl-auto: update
