@@ -1,5 +1,5 @@
 server:
-  port: 8090
+  port: 8080
   servlet:
     context-path: /api/v1
 
@@ -9,8 +9,8 @@ spring:
 
   datasource:
     url: jdbc:postgresql://database-aws-challenge.ccfoiu2kkm6k.us-east-1.rds.amazonaws.com:5432/postgres
-    username: ${DB_USER}
-    password: ${DB_PASSWORD}
+    username: postgres
+    password: Admin.1234
     driver-class-name: org.postgresql.Driver
 
   jpa:

@@ -30,7 +30,7 @@ public class UserRestController {
         return ResponseEntity.ok(userHandler.getUser(id));
     }
 
-    @PostMapping("/")
+    @PostMapping("")
     @Operation(summary = "Create an user")
     @ApiResponses(value = {
             @ApiResponse(responseCode = "201", description = "User created successfully"),
