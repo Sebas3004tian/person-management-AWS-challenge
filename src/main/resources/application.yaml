@@ -8,9 +8,9 @@ spring:
     name: person-management-AWS-challenge
 
   datasource:
-    url: jdbc:postgresql://database-aws-challenge.ccfoiu2kkm6k.us-east-1.rds.amazonaws.com:5432/postgres
-    username: postgres
-    password: Admin.1234
+    url: ${DB_URL}
+    username: ${DB_USER}
+    password: ${DB_PASSWORD}
     driver-class-name: org.postgresql.Driver
 
   jpa:
